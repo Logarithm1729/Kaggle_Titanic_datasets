@@ -12,7 +12,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.svm import SVC
 
 
-titanic = pd.read_csv('3章/datasets/train.csv')
+titanic = pd.read_csv('datasets/train.csv')
 
 titanic = titanic.drop(['Cabin', 'Name', 'Ticket'], axis=1)
 
