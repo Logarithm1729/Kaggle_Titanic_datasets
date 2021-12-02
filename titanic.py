@@ -53,3 +53,6 @@ grid = GridSearchCV(SVC(), param_grid, cv=5, n_jobs=-2)
 grid.fit(prepared_data, target)
 print(grid.best_score_)
 print(grid.best_params_)
+
+# 0.8267948962102455
+# {'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}
