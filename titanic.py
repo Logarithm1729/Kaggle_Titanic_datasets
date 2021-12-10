@@ -1,5 +1,4 @@
 from sklearn.preprocessing import StandardScaler
-from numpy.core.numeric import full
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.svm import SVC
